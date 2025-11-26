@@ -65,6 +65,38 @@ full position gets liquidated and you keep the full amount recieved from minting
 Only way to lose collateral: you forget to repay.  
 Crashes can’t hurt you — the reserves eat the loss instead.
 
+# Fee Distribution & Reserve Mechanics (Simple & Transparent)
+
+### Mint Fees and Extension Fees  
+(Every time someone mints new tokens or extends a loan — same split for both)
+
+| Percentage | Destination                  | Purpose                                      |
+|------------|------------------------------|----------------------------------------------|
+| 50%        | Tertiary Reserve             | Builds the giant long-term safety buffer    |
+| 40%        | Burned forever               | Reduces total token supply → helps price     |
+| 10%        | Treasury                     | Funds development, marketing, rewards, etc.  |
+
+→ **50 / 40 / 10** split every single time.
+
+### Secondary Reserve (day-to-day backing)
+- Target: **150% collateralization** (safe but not wasteful)
+- If it ever exceeds **200%**, the system automatically reduces it back to **150%**
+- The excess collateral that is released gets split **50/50**:
+  - 50% → Tertiary Reserve
+  - 50% → Treasury
+
+### Tertiary Reserve (the big rainy-day / war-chest fund)
+- Keeps growing with incoming fees
+- Once its value reaches **100% of (Primary + Secondary Reserves combined)**:
+  - Everything **above 100%** is automatically distributed:
+    - **75%** → Treasury (real usable funds to grow the project)
+    - **25%** → Burned forever (ongoing deflation)
+
+### TL;DR for token holders
+Half the fees make the system ultra-safe → 40% gets burned → treasury still grows.  
+When reserves get “too safe”, we unlock the excess: most goes to actually building the project, a quarter keeps burning.  
+Win-win: rock-solid backing + strong burn + real money to execute roadmap.
+
 ## Why qMINT on Qubic?
 - Feeless to send and recieve & instant → no gas anxiety  
 - Native QUBIC collateral → perfect for everyone 

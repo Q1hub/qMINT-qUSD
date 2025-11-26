@@ -26,7 +26,7 @@ qMINT is a **decentralized, feeless, over-collateralized minting protocol** on Q
    → Instantly receive **1,000 qUSD**
 
 2. **Use your qUSD to get liquid**  
-   → Pay bills, Re-invest or hold as USD  
+   → Re-invest, hold as USD 
    → Your original QUBIC stays locked and keeps rising with price
 
 3. **When you want your QUBIC back**  
@@ -51,7 +51,7 @@ full position gets liquidated and you keep the full amount recieved from minting
     
 
 ## Why qMINT on Qubic?
-- Feeless & instant → no gas anxiety  
+- Feeless to send and recieve & instant → no gas anxiety  
 - Native QUBIC collateral → perfect for everyone 
 - True capital efficiency → be long QUBIC + hold USD at the same time  
 - Foundation for future DeFi → qUSD becomes the base USD pair on Qubic  

@@ -47,8 +47,23 @@ qMINT is a **decentralized, feeless, over-collateralized minting protocol** on Q
    → Day 4-30 colletral is to Re-payed
 in full using the qUSD minted or by if available the Re-invest feature or by intiating extensions 
    → if none of the above been applied
-full position gets liquidated and you keep the full amount recieved from minting    
-    
+full position gets liquidated and you keep the full amount recieved from minting
+
+### The 3 types Reserves
+
+1. **Primary Reserve**  
+   Your own locked QUBIC. Starts at 150 %. Price drop? No panic yet.
+
+2. **Secondary Reserve**  
+   QUBIC from people who forgot to repay.  
+   Auto-used to keep everyone’s Primary ≥150 %.
+
+3. **Tertiary Reserve**  
+   Filled by mint fees + extension fees + 50 % of Secondary’s extra gains.  
+   Final safety net — guarantees no price-crash liquidations ever.
+
+Only way to lose collateral: you forget to repay.  
+Crashes can’t hurt you — the reserves eat the loss instead.
 
 ## Why qMINT on Qubic?
 - Feeless to send and recieve & instant → no gas anxiety  

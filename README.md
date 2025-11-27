@@ -52,11 +52,11 @@ full position gets liquidated and you keep the full amount recieved from minting
 ### The 3 types Reserves
 
 1. **Primary Reserve**  
-   Your own locked QUBIC. Starts at 1000 %. Price drop? No panic yet.
+   Your own locked QUBIC. Starts at **1000 % varaible**. Price drop? No panic yet.
 
 2. **Secondary Reserve**  
    QUBIC from people who forgot to repay.  
-   Auto-used to keep everyone’s Primary ≥1000%.
+   Auto-used to keep everyone’s Principal **≥1000% varaible**.
 
 3. **Tertiary Reserve**  
    Filled by mint fees + extension fees + 100 % of Secondary’s extra gains.  

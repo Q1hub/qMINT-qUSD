@@ -80,7 +80,7 @@ Crashes can’t hurt you — the reserves eat the loss instead.
 
 ### Secondary Reserve (day-to-day backing)
 - Target: **1000% collateralization varaible** 
-- If the requirements dectease the system automatically send excess collateral that is released gets split **100%**:
+- If the requirements decrease the system automatically send excess collateral that is released gets split **100%**:
   - 100%% → Tertiary Reserve
     
 

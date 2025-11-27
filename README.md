@@ -10,7 +10,7 @@ qMINT is a **decentralized, feeless, over-collateralized minting protocol** on Q
 **You never have to sell your QUBIC to get USD liquidity.**
 
 ## Core Features (v1)
-- Collateral: **QUBIC only** (minimum 150% ratio)  
+- Collateral: **QUBIC only** (minimum 1000% ratio)  
 - Minted asset: **qUSD** – 1:1 USD-pegged stablecoin  
 - Mint fee: **0.1% one-time** on new positions only  
 - Oracle: 30-minute TWAP via Qubic computors  
@@ -21,7 +21,7 @@ qMINT is a **decentralized, feeless, over-collateralized minting protocol** on Q
 ## Simple Use Case – How It Works
 
 1. **You deposit QUBIC**  
-   → Lock ~$1,500 worth of QUBIC (150% collateral)  
+   → Lock ~$10,000 worth of QUBIC (1000% collateral)  
    → Pay 0.1% mint fee once on the amount you want to mint e.g **1000 qUSD = $1.00 worth of QUBIC in mint fee**
    → Instantly receive **1,000 qUSD**
 
@@ -52,14 +52,14 @@ full position gets liquidated and you keep the full amount recieved from minting
 ### The 3 types Reserves
 
 1. **Primary Reserve**  
-   Your own locked QUBIC. Starts at 150 %. Price drop? No panic yet.
+   Your own locked QUBIC. Starts at 1000 %. Price drop? No panic yet.
 
 2. **Secondary Reserve**  
    QUBIC from people who forgot to repay.  
-   Auto-used to keep everyone’s Primary ≥150 %.
+   Auto-used to keep everyone’s Primary ≥1000%.
 
 3. **Tertiary Reserve**  
-   Filled by mint fees + extension fees + 50 % of Secondary’s extra gains.  
+   Filled by mint fees + extension fees + 100 % of Secondary’s extra gains.  
    Final safety net — guarantees no price-crash liquidations ever.
 
 Only way to lose collateral: you forget to repay.  
@@ -72,30 +72,24 @@ Crashes can’t hurt you — the reserves eat the loss instead.
 
 | Percentage | Destination                  | Purpose                                      |
 |------------|------------------------------|----------------------------------------------|
-| 50%        | Tertiary Reserve             | Builds the giant long-term safety buffer    |
-| 40%        | Burned forever               | Reduces total token supply → helps price     |
+| 75%       | Tertiary Reserve             | Builds the giant long-term safety buffer    |
+| 15%       | Burned forever               | Reduces total token supply → helps price     |
 | 10%        | Treasury                     | Funds development, marketing, rewards, etc.  |
 
-→ **50 / 40 / 10** split every single time.
+→ **75 / 15 / 10** split every single time.
 
 ### Secondary Reserve (day-to-day backing)
-- Target: **150% collateralization** (safe but not wasteful)
-- If it ever exceeds **200%**, the system automatically reduces it back to **150%**
-- The excess collateral that is released gets split **50/50**:
-  - 50% → Tertiary Reserve
-  - 50% → Treasury
+- Target: **1000% collateralization varaible** 
+- If the requirements dectease the system automatically send excess collateral that is released gets split **100%**:
+  - 100%% → Tertiary Reserve
+    
 
 ### Tertiary Reserve (the big rainy-day / war-chest fund)
 - Keeps growing with incoming fees
-- Once its value reaches **100% of (Primary + Secondary Reserves combined)**:
-  - Everything **above 100%** is automatically distributed:
+- Once its value reaches **850%**:
+  - Everything **above that** is automatically distributed:
     - **75%** → Treasury (real usable funds to grow the project)
     - **25%** → Burned forever (ongoing deflation)
-
-### TL;DR for token holders
-Half the fees make the system ultra-safe → 40% gets burned → treasury still grows.  
-When reserves get “too safe”, we unlock the excess: most goes to actually building the project, a quarter keeps burning.  
-Win-win: rock-solid backing + strong burn + real money to execute roadmap.
 
 ## Why qMINT on Qubic?
 - Feeless to send and recieve & instant → no gas anxiety  

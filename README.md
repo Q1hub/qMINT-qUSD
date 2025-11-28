@@ -31,7 +31,7 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
 
 3. **When you want your QUBIC back**  
    → Burn/repay your qUSD whenever  
-   → Unlock your original QUBIC (less daily fee of .01% which is based of the amount of original mint amount in qubic)
+   → Unlock your original QUBIC (less daily fee of .01% which is based of the amount of original principle amount in qubic)
 
 4. **Bonus: re-invest your qubic to cover your original investment and get more liquid**  
    → Every time QUBIC pumps ≥100% → get **the oppunity re-invest easily** 

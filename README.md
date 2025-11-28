@@ -59,11 +59,15 @@ if qubic drops significantly liquidation occurs anywhere where the value of the 
 ### Mint Fees and Daily fees  
 (Every time someone mints new tokens or extends a loan — same split for both)
 
+# Fee Distribution & Reserve Mechanics (Simple & Transparent)
+
 | Percentage | Destination                  | Purpose                                      |
 |------------|------------------------------|----------------------------------------------|
-| 75%       | Tertiary Reserve             | Builds the giant long-term safety buffer    |
-| 15%       | Burned forever               | Reduces total token supply → helps price     |
-| 10%        | Treasury                     | Funds development, marketing, rewards, etc.  |
+| 50%        | Treasury                     | Funds development, marketing, audits, rewards, listings, whatever the team needs |
+| 50%        | Burned forever               | Permanently removes QUBIC from circulation → pure deflation |
+
+No complicated reserves, no middlemen, no confusion.  
+Half fuels growth, half gets torched.
 
 ## Why qMINT on Qubic?
 - Feeless to send and recieve & instant → no gas anxiety  

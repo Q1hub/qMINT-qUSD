@@ -66,8 +66,7 @@ if qubic drops significantly liquidation occurs anywhere where the value of the 
 | 50%        | Treasury                     | Funds development, marketing, audits, rewards, listings, whatever the team needs |
 | 50%        | Burned forever               | Permanently removes QUBIC from circulation → pure deflation |
 
-No complicated reserves, no middlemen, no confusion.  
-Half fuels growth, half gets torched.
+Burned amount held in a a smart contract if the the qubic value drops below 110% portions of thr allocated to burn each minuet until collateral value goes over 150% 
 
 ## Why qMINT on Qubic?
 - Feeless to send and recieve & instant → no gas anxiety  

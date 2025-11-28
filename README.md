@@ -15,7 +15,7 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
 - Mint fee: **0.1% one-time** on new positions only (excluding reinvest)
 - Oracle: 30-minute TWAP via Qubic computors  
 - Zero gas fees – 100% feeless & instant  
-- No top-ups – each new deposit creates a brand-new position  
+- can top-up – incase collateral gets low you can add more in to keep the position opened
 - Full on-chain, non-custodial, immutable smart contracts  
 
 ## Simple Use Case – How It Works
@@ -40,7 +40,7 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
  5. **FEES**
    → There are only 2 fee's
     New positions opened that were not a re-invest are subject to 1%.
-      → And .01% daily fee of the principal qubic deposited
+      → And .01% daily fee of the principal qubic deposited payed only when you withdraw and deducted from deposit.
     
 
 ### 2 types Reserve

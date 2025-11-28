@@ -10,7 +10,7 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
 **You never have to sell your QUBIC to get USD liquidity.**
 
 ## Core Features (v1)
-- Collateral: **QUBIC only** (minimum 400% ratio)  
+- Collateral: **QUBIC only** (Starting at 400% ratio)  
 - Minted asset: **qUSD** – 1:1 USD-pegged stablecoin  
 - Mint fee: **0.1% one-time** on new positions only (excluding reinvest)
 - Oracle: 30-minute TWAP via Qubic computors  

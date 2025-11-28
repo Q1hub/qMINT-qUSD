@@ -57,7 +57,7 @@ if qubic drops significantly liquidation occurs anywhere where the value of the 
 # Fee Distribution & Reserve Mechanics (Simple & Transparent)
 
 ### Mint Fees and Daily fees  
-(Every time someone mints new tokens or extends a loan — same split for both)
+(Every time someone mints new tokens or withdraw collateral — same split for both)
 
 # Fee Distribution & Reserve Mechanics (Simple & Transparent)
 

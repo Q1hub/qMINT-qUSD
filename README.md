@@ -36,7 +36,7 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
 
 4. **Bonus: re-invest your qubic to cover your original investment and get more liquid**  
    → Every time QUBIC pumps ≥100% → get **the oppunity re-invest easily** 
-   → Keep growing your USD balance without any minting fees or any additional collateral and all daily fees reset to 0.
+   → Keep growing your USD balance without any minting fees or any additional collateral and all daily fees reset to 0 and only use the colleteral requirement amount needed  of qubic to cover the original position.
 
  5. **FEES**
    → There are only 2 fee's

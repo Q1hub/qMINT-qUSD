@@ -16,7 +16,8 @@ qMINT is a **over-collateralized minting protocol** on Qubic that lets anyone:
 - Oracle: 30-minute TWAP via Qubic computors  
 - Zero gas fees – 100% feeless & instant  
 - can top-up – incase collateral gets low you can add more in to keep the position opened
-- Full on-chain, non-custodial, immutable smart contracts  
+- Full on-chain, non-custodial, immutable smart contracts
+- Hard locked after ever new mint, top up or reinvest for 72hrs(You cannot unlock the deposit of qubic for atleast 72hrs)
 
 ## Simple Use Case – How It Works
 
